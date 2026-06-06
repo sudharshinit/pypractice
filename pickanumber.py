@@ -1,3 +1,4 @@
+# pick a number game from 100 days of python
 list= range(1,101)
 import random
 c = int(random.choice(list))
