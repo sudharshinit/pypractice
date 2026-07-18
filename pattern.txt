@@ -1,4 +1,22 @@
+# pattern.txt
+Command	Purpose
+1 git log -p file.txt 	    Show commits and the exact changes made to file.txt
+2 git log --pretty=format:"%an committed %H"
+Breaking it down
+git log
 
+Displays the commit history.
 
-pattern.txt
-we go on the round a bout
+--pretty=format:
+
+Tells Git:
+
+"Display each commit using this custom format."
+
+%an
+
+The author's name.
+3 git checkout dad47ed    ----# Checks out the given commit 
+4 Finding contributors
+git shortlog
+5 git diff master..bugfix
